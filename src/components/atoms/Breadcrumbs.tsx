@@ -26,7 +26,7 @@ const Breadcrumbs: React.FC<Props> = (props) => {
       [media.up('tablet')]: {
         fontSize: size(1.5),
       },
-      '&:not(:first-child)::before': {
+      '&:not(:first-of-type)::before': {
         display: 'inline-block',
         width: size(0.75),
         height: size(0.75),

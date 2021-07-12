@@ -40,7 +40,7 @@ const About: React.FC<Props> = (props) => {
       [media.up('phoneLarge')]: {
         fontSize: size(2),
       },
-      '&:first-child': {
+      '&:first-of-type': {
         borderLeft: 'none',
       }
     },

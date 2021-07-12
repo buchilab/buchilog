@@ -118,7 +118,7 @@ const Post: React.FC<Props> = (props) => {
     'th, td': {
       padding: size(1),
       borderLeft: `1px solid ${colors.gray.lighter}`,
-      '&:first-child': {
+      '&:first-of-type': {
         borderLeft: 'none',
       }
     },

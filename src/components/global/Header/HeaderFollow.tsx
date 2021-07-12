@@ -45,7 +45,7 @@ const HeaderFollow: React.FC = () => {
     'li': {
       overflow: 'hidden',
       height: 20,
-      '&:not(:first-child)': {
+      '&:not(:first-of-type)': {
         marginLeft: 4,
       }
     }
